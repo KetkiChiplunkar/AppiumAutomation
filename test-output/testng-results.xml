@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="95054" started-at="2019-03-12T11:41:34Z" finished-at="2019-03-12T11:43:09Z">
+  <suite name="Suite" duration-ms="73247" started-at="2019-03-13T08:59:50Z" finished-at="2019-03-13T09:01:03Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="95054" started-at="2019-03-12T11:41:34Z" finished-at="2019-03-12T11:43:09Z">
+    <test name="Test" duration-ms="73247" started-at="2019-03-13T08:59:50Z" finished-at="2019-03-13T09:01:03Z">
       <class name="Base.SwipeAction">
-        <test-method status="PASS" signature="SwipeAction()[pri:0, instance:Base.SwipeAction@704a52ec]" name="SwipeAction" duration-ms="38834" started-at="2019-03-12T11:41:53Z" finished-at="2019-03-12T11:42:32Z">
+        <test-method status="PASS" signature="beforeExecution()[pri:0, instance:Base.SwipeAction@1f57539]" name="beforeExecution" is-config="true" duration-ms="7032" started-at="2019-03-13T08:59:43Z" finished-at="2019-03-13T08:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeExecution -->
+        <test-method status="PASS" signature="SwipeAction()[pri:0, instance:Base.SwipeAction@1f57539]" name="SwipeAction" duration-ms="35531" started-at="2019-03-13T08:59:50Z" finished-at="2019-03-13T09:00:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SwipeAction -->
       </class> <!-- Base.SwipeAction -->
-      <class name="Base.ScrollingDemo">
-        <test-method status="PASS" signature="beforeExecution()[pri:0, instance:Base.ScrollingDemo@76f2b07d]" name="beforeExecution" is-config="true" duration-ms="7022" started-at="2019-03-12T11:41:27Z" finished-at="2019-03-12T11:41:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeExecution -->
-        <test-method status="PASS" signature="testScrolling()[pri:0, instance:Base.ScrollingDemo@76f2b07d]" name="testScrolling" duration-ms="18762" started-at="2019-03-12T11:41:34Z" finished-at="2019-03-12T11:41:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testScrolling -->
-      </class> <!-- Base.ScrollingDemo -->
       <class name="Base.TapAction">
-        <test-method status="PASS" signature="TapAction()[pri:0, instance:Base.TapAction@6ee52dcd]" name="TapAction" duration-ms="37415" started-at="2019-03-12T11:42:32Z" finished-at="2019-03-12T11:43:09Z">
+        <test-method status="PASS" signature="TapAction()[pri:0, instance:Base.TapAction@76f2b07d]" name="TapAction" duration-ms="37677" started-at="2019-03-13T09:00:25Z" finished-at="2019-03-13T09:01:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TapAction -->
