@@ -12,6 +12,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.BeforeSuite;
 
 public class AppiumBase {
+	
 	@BeforeSuite
 	public void beforeExecution() throws IOException, InterruptedException {
 		Runtime run = Runtime.getRuntime();
