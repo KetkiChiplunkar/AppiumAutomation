@@ -5,7 +5,6 @@
     <classes>
       <class name="Base.LongPress"/>
       <class name="Base.TapAction"/>
-       <class name="Base.SwipeAction"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
