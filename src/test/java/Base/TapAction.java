@@ -25,7 +25,7 @@ public class TapAction extends AppiumBase {
 		WebElement el = driver
 				.findElementByXPath("//android.widget.TextView[@text='Views']");
 		t.tap(tapOptions().withElement(element(el))).perform();
-
+		Thread.sleep(5000);
 		driver.findElementByXPath(
 				"//android.widget.TextView[@text='Expandable Lists']").click();
 		Thread.sleep(5000);
@@ -36,7 +36,7 @@ public class TapAction extends AppiumBase {
 		WebElement el2 = driver
 				.findElementByXPath("//android.widget.TextView[@text='People Names']");
 		t.longPress(longPressOptions().withElement(element(el2)).withDuration(Duration.ofSeconds(3))).release().perform();
-		
+		Thread.sleep(5000);
 		
 	}
 }
