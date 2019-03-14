@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="72519" started-at="2019-03-13T09:21:55Z" finished-at="2019-03-13T09:23:07Z">
+  <suite name="Suite" duration-ms="77407" started-at="2019-03-14T06:32:55Z" finished-at="2019-03-14T06:34:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="72519" started-at="2019-03-13T09:21:55Z" finished-at="2019-03-13T09:23:07Z">
+    <test name="Test" duration-ms="77407" started-at="2019-03-14T06:32:55Z" finished-at="2019-03-14T06:34:13Z">
       <class name="Base.SwipeAction">
-        <test-method status="PASS" signature="beforeExecution()[pri:0, instance:Base.SwipeAction@1f57539]" name="beforeExecution" is-config="true" duration-ms="7020" started-at="2019-03-13T09:21:48Z" finished-at="2019-03-13T09:21:55Z">
+        <test-method status="PASS" signature="beforeExecution()[pri:0, instance:Base.SwipeAction@1f57539]" name="beforeExecution" is-config="true" duration-ms="7024" started-at="2019-03-14T06:32:48Z" finished-at="2019-03-14T06:32:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeExecution -->
-        <test-method status="PASS" signature="SwipeAction()[pri:0, instance:Base.SwipeAction@1f57539]" name="SwipeAction" duration-ms="35818" started-at="2019-03-13T09:21:55Z" finished-at="2019-03-13T09:22:31Z">
+        <test-method status="PASS" signature="SwipeAction()[pri:0, instance:Base.SwipeAction@1f57539]" name="SwipeAction" duration-ms="41340" started-at="2019-03-14T06:32:55Z" finished-at="2019-03-14T06:33:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SwipeAction -->
       </class> <!-- Base.SwipeAction -->
       <class name="Base.TapAction">
-        <test-method status="PASS" signature="TapAction()[pri:0, instance:Base.TapAction@76f2b07d]" name="TapAction" duration-ms="36665" started-at="2019-03-13T09:22:31Z" finished-at="2019-03-13T09:23:07Z">
+        <test-method status="PASS" signature="TapAction()[pri:0, instance:Base.TapAction@76f2b07d]" name="TapAction" duration-ms="36017" started-at="2019-03-14T06:33:37Z" finished-at="2019-03-14T06:34:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TapAction -->

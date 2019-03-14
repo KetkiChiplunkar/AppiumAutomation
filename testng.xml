@@ -5,6 +5,7 @@
     <classes>
       <class name="Base.SwipeAction"/>
       <class name="Base.TapAction"/>
+       <class name="Base.ScrollingDemo"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

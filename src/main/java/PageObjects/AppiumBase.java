@@ -37,6 +37,10 @@ public class AppiumBase {
 				System.getProperty("user.dir") + "\\src\\ApiDemos-debug.apk");
 		System.out.println("**************************************************"
 				+ System.getProperty("user.dir"));
+		
+		//Connection to the Server 
+		//Invoke AndroidDriver class 
+		//Give the connection to server link and capabilities
 		AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(
 				new URL("http://127.0.0.1:4723/wd/hub"), cap);
 		return driver;

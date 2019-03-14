@@ -25,6 +25,7 @@ public class ScrollingDemo extends AppiumBase {
 
 		AndroidDriver<AndroidElement> driver = Capabilities();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		//writing xpath = className(serve as TagName)and attribute (//className[@attribute='xxx'])
 		driver.findElementByXPath("//android.widget.TextView[@text='Views']")
 				.click();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
