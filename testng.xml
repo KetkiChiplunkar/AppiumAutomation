@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Base.SwipeAction"/>
+      <class name="Base.LongPress"/>
       <class name="Base.TapAction"/>
        <class name="Base.ScrollingDemo"/>
     </classes>

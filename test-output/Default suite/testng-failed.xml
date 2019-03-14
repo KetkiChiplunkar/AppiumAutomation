@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Base.ScrollingDemo">
+      <class name="Base.LongPress">
         <methods>
-          <include name="testScrolling"/>
+          <include name="beforeExecution"/>
+          <include name="TapAction"/>
         </methods>
-      </class> <!-- Base.ScrollingDemo -->
+      </class> <!-- Base.LongPress -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
